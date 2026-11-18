@@ -25,7 +25,8 @@ The guide is based on original learning notes and exercises, rewritten and updat
 5. [Recovery and safety / Восстановление и безопасность](docs/05-recovery-and-safety.md)
 6. [Markdown for repositories / Markdown для репозиториев](docs/06-markdown-for-repositories.md)
 7. [Command reference / Справочник команд](docs/07-command-reference.md)
-8. [Branching and conflict lab / Практикум по веткам и конфликтам](exercises/branching-conflict-lab.md)
+8. [Versioned analytics and reporting projects / Git для аналитики](docs/08-versioned-reporting-projects.md)
+9. [Branching and conflict lab / Практикум по веткам и конфликтам](exercises/branching-conflict-lab.md)
 
 ## Recommended workflow / Рекомендуемый workflow
 
@@ -62,6 +63,12 @@ Update main → create a focused branch → make small commits → push → open
 The main references are the [Pro Git book](https://git-scm.com/book/en/v2), [Git documentation](https://git-scm.com/docs) and [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow).
 
 Основные источники: [книга Pro Git](https://git-scm.com/book/en/v2), [документация Git](https://git-scm.com/docs) и [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow).
+
+## Practical integration / Применение
+
+Git tracks approved source changes for the synthetic [Python reporting lab](https://github.com/KonstantinOreshnikov/python-lessons-geekbrains), [Linux scripts](https://github.com/KonstantinOreshnikov/linux-testing-python) and [QA artifacts](https://github.com/KonstantinOreshnikov/web-testing-page-object). It does not store real analytics exports or confidential credentials.
+
+Git связывает рабочие скрипты, методологию, тесты и документацию; результат проверяется отдельно.
 
 ## Legacy materials / Исторические материалы
 
